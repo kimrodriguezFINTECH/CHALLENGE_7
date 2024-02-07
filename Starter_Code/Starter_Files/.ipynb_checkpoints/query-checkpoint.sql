@@ -19,68 +19,31 @@ SELECT *
 FROM transaction
 
 ----------------------------------------------------------------------------------------------
---- queries for Data Analysis Part 1
---- query for Data Analysis Part 1 Question 1
---- How can you isolate (or group) the transactions of each cardholder?
-SELECT card_holder.name AS "Card Holder", COUNT(transaction.id) AS "Transactions"
-FROM transaction
-JOIN credit_card on credit_card.card = transaction.card
-JOIN card_holder on card_holder.id = credit_card.cardholder_id
-GROUP BY "Card Holder"
-ORDER BY "Transactions" DESC;
-
---- query for Data Analysis Part 1 Question 2
---- Count the transactions that are less than $2.00 per cardholder
-SELECT card AS "Card Number", COUNT(amount) AS "Count of Sub $2 Transactions"
-FROM transaction
-WHERE amount < 2.00
-GROUP BY card
-ORDER BY "Count of Sub $2 Transactions" DESC;
-
---- query for Data Analysis Part 1 Question 4
---- What are the top 100 highest transactions made between 7:00 am and 9:00 am?
-SELECT id, amount, date :: timestamp :: date AS "Date", date :: timestamp :: time AS "Time"
-FROM transaction
-WHERE date :: timestamp :: time > '07:00:00' AND date :: timestamp :: time < '09:00:00'
-ORDER BY amount DESC
-LIMIT 100;
-
---- query for Data Analysis Part 1 Question 5
---- Do you see any anomalous transactions that could be fraudulent?
-SELECT id, amount, date :: timestamp :: date AS "Date", date :: timestamp :: time AS "Time"
-FROM transaction
-WHERE amount < 2 AND date :: timestamp :: time > '07:00:00' AND date :: timestamp :: time < '09:00:00'
-ORDER BY amount DESC;
-
---- query for Data Analysis Part 1 Question 6a
+--- Query for Data Analysis 
 --- Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
 --- Count for fraudulent transactions between 7am and 9am
 SELECT *
 FROM transaction
 WHERE amount < 2 AND date :: timestamp :: time > '07:00:00' AND date :: timestamp :: time < '09:00:00';
 
---- query for Data Analysis Part 1 Question 6b
 --- Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
 --- Count for fraudulent transactions between 9am and 7am
 SELECT *
 FROM transaction
 WHERE amount < 2 AND (date :: timestamp :: time < '07:00:00' OR date :: timestamp :: time > '09:00:00');
 
---- query for Data Analysis Part 1 Question 7a
 --- If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame
 --- Count for all transactions between 7am and 9am
 SELECT *
 FROM transaction
 WHERE date :: timestamp :: time > '07:00:00' AND date :: timestamp :: time < '09:00:00';
 
---- query for Data Analysis Part 1 Question 7b
 --- If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame
 --- Count for all transactions between 9am and 7am
 SELECT *
 FROM transaction
 WHERE (date :: timestamp :: time < '07:00:00' OR date :: timestamp :: time > '09:00:00');
 
---- query for Data Analysis Part 1 Question 8
 --- What are the top 5 merchants prone to being hacked using small transactions?
 SELECT merchant.name, COUNT(transaction.id_merchant) AS "Number of Transactions"
 FROM transaction
