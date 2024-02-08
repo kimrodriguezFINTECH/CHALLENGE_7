@@ -86,7 +86,9 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
   * Do you see any anomalous transactions that could be fraudulent?
     * Possibly 1-9 that are over $100.00 With the new technology/algorithms cardholders have a text or email could be sufficient to let them know if they are the ones making the $100 purchases.
     - Folder query_questions: Top_100_Highest.csv
-      
+
+<img width="351" alt="Screenshot 2024-02-07 at 5 17 38 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/1c2866c8-6fc5-4b44-928c-72593177bf9a">
+
   * Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
     * Yes.
 
@@ -97,6 +99,9 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
         - "Wood-Ramirez", "Hood-Phillips", "Davis Lowe and Baker", "Clark & Sons", and "Greene-Wood."
         - Folder query_questions: Top_5_Merch.csv
 
+<img width="352" alt="Screenshot 2024-02-07 at 5 17 43 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/bc4729b9-0fa2-43de-a618-401e3306d409">
+
+
 #### Part 2:
 
 Your CFO has also requested detailed trends data on specific card holders. Use the [starter notebook](Starter_Files/challenge.ipynb) to query your database and generate visualizations that supply the requested information as follows, then add your visualizations and observations to your markdown report:      
@@ -104,8 +109,16 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
 * The two most important customers of the firm may have been hacked. Verify if there are any fraudulent transactions in their history. For privacy reasons, you only know that their cardholder IDs are 2 and 18.
 
   * Using hvPlot, create a line plot representing the time series of transactions over the course of the year for each cardholder separately. 
-  
+
+<img width="883" alt="Screenshot 2024-02-07 at 5 08 11 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/26590e9a-6bc1-41ed-a19c-58bcc487e635">
+
+<img width="857" alt="Screenshot 2024-02-07 at 5 08 18 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/84edd4f6-15c7-4ce4-9bdc-6a490402e4e0">
+
+
   * Next, to better compare their patterns, create a single line plot that contains both card holders' trend data.  
+
+<img width="871" alt="Screenshot 2024-02-07 at 5 08 26 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/a0ec07a4-8e41-436d-b656-b37f1b0288b4">
+
 
   * What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? 
     - As mentioned before Cardholder ID 2 transactions are never greater than $20. On the other hand, cardholder ID 18 regularly makes very small purchases and then there are significant spikes with high cost purchases almost as high as $2000. Since there are irregular spikes with cardholder ID 18 transactions, this might suggest there might be some fraudulent activity occurring with this account and is worth validating with the cardholder. Small transactions can be a fraudsters way to check whether the card is active and if the card has funds before making larger fraudulent purchases. Now, with Cardholder ID 2 there aren't irregular spikes so we don't need to worry to much about this account. 
@@ -113,6 +126,9 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
 * The CEO of the biggest customer of the firm suspects that someone has used her corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills. Again, for privacy reasons, you know only that the cardholder ID in question is 25.
 
   * Using Plotly Express, create a box plot, representing the expenditure data from January 2018 to June 2018 for cardholder ID 25.
+
+<img width="969" alt="Screenshot 2024-02-07 at 5 23 09 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/ac67932a-6669-4838-8a98-501903152dd8">
+
 
   * Are there any outliers for cardholder ID 25? How many outliers are there per month?
     * Every month except for February contains outliers. January, March, and May all have a single outlier. April and June each have 3 outliers.
