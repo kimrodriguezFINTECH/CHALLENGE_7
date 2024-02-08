@@ -71,16 +71,20 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
     - Folder query_questions: Top_100_Highest.csv
 
   * Do you see any anomalous transactions that could be fraudulent?
-    6. No
+    6. Possibly 1-9 that are over $100.00
 
   * Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
-    7. 
+    7. Not necessarily, because most transactions are under $23.13. Only 1-9 are over $100 and with the new technology cardholders have a text or email could be sufficient the let them know if they are the ones making the $100 purchases.
 
   * If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame.
+    8.  I believe hackers choose time of day to make fraudulent transactions as people are less likely to notice. This is the start of the day where people are busy getting ready to go to work or school and are often speding money on supplies food or travel etc. throughout the day. These transactions are also during busy hours when people tend to use their card the most compared to using your card in the middle of the night when people are asleep. 
 
-* What are the top 5 merchants prone to being hacked using small transactions?
-    8. Folder query_questions: Top_5_Merch.csv
+   * What are the top 5 merchants prone to being hacked using small transactions?
+    9. 
+    -Folder query_questions: Top_5_Merch.csv
 
+    9. 1. Wood-Ramirez, 2. Hood-Phillips, 3. Davis Lowe and Baker, 4. Clark & Sons, 5. Greene-Wood
+    - Folder query_questions: Top_5_Merch.csv
 
 #### Part 2:
 
@@ -92,12 +96,14 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
   
   * Next, to better compare their patterns, create a single line plot that contains both card holders' trend data.  
 
-  * What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? Explain your rationale.
+  * What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? 
+   1. As mentioned before Cardholder ID 2 transactions are never greater than $20. On the other hand, cardholder ID 18 regularly makes very small purchases and then there are significant spikes with high cost purchases almost as high as $2000. Since there are irregular spikes with cardholder ID 18 transactions, this might suggest there might be some fraudulent activity occurring with this account and is worth validating with the cardholder. Small transactions can be a fraudsters way to check whether the card is active and if the card has funds before making larger fraudulent purchases. Now, with Cardholder ID 2 there aren't irregular spikes so we don't need to worry to much about this account. 
 
 * The CEO of the biggest customer of the firm suspects that someone has used her corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills. Again, for privacy reasons, you know only that the cardholder ID in question is 25.
 
   * Using Plotly Express, create a box plot, representing the expenditure data from January 2018 to June 2018 for cardholder ID 25.
-  
-  * Are there any outliers for cardholder ID 25? How many outliers are there per month?
 
+  * Are there any outliers for cardholder ID 25? How many outliers are there per month?
+    2. Every month except for February contains outliers. January, March and May all have a single outlier, while April and June each have 3 outliers.
   * Do you notice any anomalies? Describe your observations and conclusions.
+    3. There are a total of 9 outlier transactions from January-June 2018 and thus each of these outliers are worth validating with the cardholder. It may be that there is fraudulent activity in both the 1st and 2nd quarters of 2018.
