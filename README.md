@@ -101,6 +101,6 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
   * Using Plotly Express, create a box plot, representing the expenditure data from January 2018 to June 2018 for cardholder ID 25.
 
   * Are there any outliers for cardholder ID 25? How many outliers are there per month?
-    * Every month except for February contains outliers. January, March and May all have a single outlier, while April and June each have 3 outliers.
+    * Every month except for February contains outliers. January, March, and May all have a single outlier. April and June each have 3 outliers.
   * Do you notice any anomalies? Describe your observations and conclusions.
-    * There are a total of 9 outlier transactions from January-June 2018 and thus each of these outliers are worth validating with the cardholder. It may be that there is fraudulent activity in both the 1st and 2nd quarters of 2018.
+    * There are a total of 9 outliers from January-June 2018 so each one of these transactions are worth validating with the cardholder. 
