@@ -133,4 +133,24 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
   * Are there any outliers for cardholder ID 25? How many outliers are there per month?
     * Every month except for February contains outliers. January, March, and May all have a single outlier. April and June each have 3 outliers.
   * Do you notice any anomalies? Describe your observations and conclusions.
-    * There are a total of 9 outliers from January-June 2018 so each one of these transactions are worth validating with the cardholder. 
+    * There are a total of 9 outliers from January-June 2018 so each one of these transactions are worth validating with the cardholder.
+   
+# Resources 
+## Resources Provided in Challenge Links 
+* [https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FIN-PT-12-2023-U-LOLC/-/blob/main/06-PyViz/3/Activities/01-Ins_GeoViews_Demo/Solved/geoviews_demo.ipynb?ref_type=heads](https://www.kdnuggets.com/2017/02/removing-outliers-standard-deviation-python.html)
+* [https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FIN-PT-12-2023-U-LOLC/-/blob/main/06-PyViz/1/Activities/07-Stu_Composing_Masterpieces/Solved/composing_masterpieces.ipynb?ref_type=heads](https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/)
+* https://app.quickdatabasediagrams.com/#/d/5guDYu
+
+## Tutors 
+### Tutor Meetings through FINTECH Bootcamp:
+* Vijaya
+- Tuesday 1/31/2024
+- Wednesday 2/07/2024
+
+### Tutor Meetings External Resources:
+* Edward R.
+* Website: https://www.edwardrees.info
+- Sunday 2/03/2024
+- Wednesday 2/07/2024
+ 
+ 
