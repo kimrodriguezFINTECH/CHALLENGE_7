@@ -80,9 +80,6 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
     * I believe hackers choose time of day to make fraudulent transactions as people are less likely to notice. This is the start of the day where people are busy getting ready to go to work or school and are often speding money on supplies food or travel etc. throughout the day. These transactions are also during busy hours when people tend to use their card the most compared to using your card in the middle of the night when people are asleep. 
 
    * What are the top 5 merchants prone to being hacked using small transactions?
-    9. 
-    -Folder query_questions: Top_5_Merch.csv
-
     * 1. Wood-Ramirez, 2. Hood-Phillips, 3. Davis Lowe and Baker, 4. Clark & Sons, 5. Greene-Wood
     - Folder query_questions: Top_5_Merch.csv
 
