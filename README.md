@@ -58,11 +58,24 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
     * I first needed to complete an entity relationship diagram (ERD). Within my ERD I assign primary and foreign keys in order to determine the number of tables to create and what kind of relationships I need to define my tables. Quick Database Diagrams was used for this process. 
     * Using hvPlot, I created a line plot representing the time series of transactions over the course of the year for each cardholder separately (df_2 & df_18).
 
+![QuickDBD-Diagram_Challenge_7](https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/cbd96505-3698-4477-8ac1-c3a2465ccbc4)
+
+<img width="883" alt="Screenshot 2024-02-07 at 5 08 11 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/07c99ec2-3645-4224-862d-e5659cea80a4">
+
+<img width="857" alt="Screenshot 2024-02-07 at 5 08 18 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/93d8c88f-58dd-4c49-82be-6c676b2c912d">
+
+<img width="871" alt="Screenshot 2024-02-07 at 5 08 26 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/0b1048a2-3825-4967-a79d-774313f70fc5">
+
+
   * Count the transactions that are less than $2.00 per cardholder. 
     * Cardholder ID 2 transactions are never greater than $20. On the other hand, cardholder ID 18 regularly makes very small purchases and then there are significant spikes with high cost purchases almost as high as $2000.
 
+<img width="883" alt="Screenshot 2024-02-07 at 5 08 11 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/72fc11ca-2fe2-467b-ba0b-0684de732199">
+
   * Is there any evidence to suggest that a credit card has been hacked? Explain your rationale.
     * Since there are irregular spikes with cardholder ID 18 transactions, this might suggest there might be some fraudulent activity occurring with this account and is worth validating with the cardholder. Small transactions can be a fraudsters way to check whether the card is active and if the card has funds before making larger fraudulent purchases. Now, with Cardholder ID 2 there aren't irregular spikes so we don't need to worry to much about this account. 
+
+<img width="871" alt="Screenshot 2024-02-07 at 5 08 26 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/52be38ab-3c2f-4360-ace7-29de672e971a">
 
 * Take your investigation a step futher by considering the time period in which potentially fraudulent transactions are made. 
 
@@ -72,7 +85,8 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
 
   * Do you see any anomalous transactions that could be fraudulent?
     * Possibly 1-9 that are over $100.00 With the new technology/algorithms cardholders have a text or email could be sufficient to let them know if they are the ones making the $100 purchases.
-
+    - Folder query_questions: Top_100_Highest.csv
+      
   * Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
     * Yes.
 
