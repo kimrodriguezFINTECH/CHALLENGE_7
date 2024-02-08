@@ -55,8 +55,8 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
 * Some fraudsters hack a credit card by making several small transactions (generally less than $2.00), which are typically ignored by cardholders. 
 
   * How can you isolate (or group) the transactions of each cardholder?
-    1. I first needed to complete an entity relationship diagram (ERD). Within my ERD I assign primary and foreign keys in order to determine the number of tables to create and what kind of relationships I need to define my tables. Quick Database Diagrams was used for this process. 
-    2. Using hvPlot, I created a line plot representing the time series of transactions over the course of the year for each cardholder separately (df_2 & df_18).
+    * I first needed to complete an entity relationship diagram (ERD). Within my ERD I assign primary and foreign keys in order to determine the number of tables to create and what kind of relationships I need to define my tables. Quick Database Diagrams was used for this process. 
+    * Using hvPlot, I created a line plot representing the time series of transactions over the course of the year for each cardholder separately (df_2 & df_18).
 
   * Count the transactions that are less than $2.00 per cardholder. 
     3. Cardholder ID 2 transactions are never greater than $20. On the other hand, cardholder ID 18 regularly makes very small purchases and then there are significant spikes with high cost purchases almost as high as $2000.
