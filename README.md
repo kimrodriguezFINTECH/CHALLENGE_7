@@ -81,7 +81,7 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
 
    * What are the top 5 merchants prone to being hacked using small transactions?
         - "Wood-Ramirez", "Hood-Phillips", "Davis Lowe and Baker", "Clark & Sons", and "Greene-Wood."
-        -Folder query_questions: Top_5_Merch.csv
+        - Folder query_questions: Top_5_Merch.csv
 
 #### Part 2:
 
@@ -94,7 +94,7 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
   * Next, to better compare their patterns, create a single line plot that contains both card holders' trend data.  
 
   * What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? 
-   * As mentioned before Cardholder ID 2 transactions are never greater than $20. On the other hand, cardholder ID 18 regularly makes very small purchases and then there are significant spikes with high cost purchases almost as high as $2000. Since there are irregular spikes with cardholder ID 18 transactions, this might suggest there might be some fraudulent activity occurring with this account and is worth validating with the cardholder. Small transactions can be a fraudsters way to check whether the card is active and if the card has funds before making larger fraudulent purchases. Now, with Cardholder ID 2 there aren't irregular spikes so we don't need to worry to much about this account. 
+    - As mentioned before Cardholder ID 2 transactions are never greater than $20. On the other hand, cardholder ID 18 regularly makes very small purchases and then there are significant spikes with high cost purchases almost as high as $2000. Since there are irregular spikes with cardholder ID 18 transactions, this might suggest there might be some fraudulent activity occurring with this account and is worth validating with the cardholder. Small transactions can be a fraudsters way to check whether the card is active and if the card has funds before making larger fraudulent purchases. Now, with Cardholder ID 2 there aren't irregular spikes so we don't need to worry to much about this account. 
 
 * The CEO of the biggest customer of the firm suspects that someone has used her corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills. Again, for privacy reasons, you know only that the cardholder ID in question is 25.
 
