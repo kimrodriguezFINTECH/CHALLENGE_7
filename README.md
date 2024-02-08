@@ -68,12 +68,12 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
 
 
   * Count the transactions that are less than $2.00 per cardholder. 
-    * Cardholder ID 2 transactions are never greater than $20. On the other hand, cardholder ID 18 regularly makes very small purchases and then there are significant spikes with high cost purchases almost as high as $2000.
+    * Cardholder ID 2 transactions are never greater than $20. On the other hand, cardholder ID 18 regularly makes very small purchases and then there are significant spikes with high cost purchases almost as high as $2000. (I personally like using the graph.)
 
 <img width="883" alt="Screenshot 2024-02-07 at 5 08 11 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/72fc11ca-2fe2-467b-ba0b-0684de732199">
 
   * Is there any evidence to suggest that a credit card has been hacked? Explain your rationale.
-    * Since there are irregular spikes with cardholder ID 18 transactions, this might suggest there might be some fraudulent activity occurring with this account and is worth validating with the cardholder. Small transactions can be a fraudsters way to check whether the card is active and if the card has funds before making larger fraudulent purchases. Now, with Cardholder ID 2 there aren't irregular spikes so we don't need to worry to much about this account. 
+    * Since there are irregular spikes with cardholder ID 18 transactions, this might suggest there might be some fraudulent activity occurring with this account and is worth validating with the cardholder. Small transactions can be a fraudsters way to check whether the card is active and if the card has funds before making larger fraudulent purchases. Now, with Cardholder ID 2 there aren't irregular spikes so we don't need to worry to much about this account. (I personally like using the graph.)
 
 <img width="871" alt="Screenshot 2024-02-07 at 5 08 26 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_7/assets/152752672/52be38ab-3c2f-4360-ace7-29de672e971a">
 
