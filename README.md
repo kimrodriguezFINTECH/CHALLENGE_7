@@ -71,10 +71,10 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
     - Folder query_questions: Top_100_Highest.csv
 
   * Do you see any anomalous transactions that could be fraudulent?
-    * Possibly 1-9 that are over $100.00
+    * Possibly 1-9 that are over $100.00 With the new technology/algorithms cardholders have a text or email could be sufficient to let them know if they are the ones making the $100 purchases.
 
   * Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
-    * Not necessarily, because most transactions are under $23.13. Only 1-9 are over $100 and with the new technology cardholders have a text or email could be sufficient the let them know if they are the ones making the $100 purchases.
+    * Yes.
 
   * If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame.
     * I believe hackers choose time of day to make fraudulent transactions as people are less likely to notice. This is the start of the day where people are busy getting ready to go to work or school and are often speding money on supplies food or travel etc. throughout the day. These transactions are also during busy hours when people tend to use their card the most compared to using your card in the middle of the night when people are asleep. 
