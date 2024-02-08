@@ -59,10 +59,10 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
     * Using hvPlot, I created a line plot representing the time series of transactions over the course of the year for each cardholder separately (df_2 & df_18).
 
   * Count the transactions that are less than $2.00 per cardholder. 
-    3. Cardholder ID 2 transactions are never greater than $20. On the other hand, cardholder ID 18 regularly makes very small purchases and then there are significant spikes with high cost purchases almost as high as $2000.
+    * Cardholder ID 2 transactions are never greater than $20. On the other hand, cardholder ID 18 regularly makes very small purchases and then there are significant spikes with high cost purchases almost as high as $2000.
 
   * Is there any evidence to suggest that a credit card has been hacked? Explain your rationale.
-    4. Since there are irregular spikes with cardholder ID 18 transactions, this might suggest there might be some fraudulent activity occurring with this account and is worth validating with the cardholder. Small transactions can be a fraudsters way to check whether the card is active and if the card has funds before making larger fraudulent purchases. Now, with Cardholder ID 2 there aren't irregular spikes so we don't need to worry to much about this account. 
+    * Since there are irregular spikes with cardholder ID 18 transactions, this might suggest there might be some fraudulent activity occurring with this account and is worth validating with the cardholder. Small transactions can be a fraudsters way to check whether the card is active and if the card has funds before making larger fraudulent purchases. Now, with Cardholder ID 2 there aren't irregular spikes so we don't need to worry to much about this account. 
 
 * Take your investigation a step futher by considering the time period in which potentially fraudulent transactions are made. 
 
